@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    background-image: url('section1.jpg'); 
+    color:#fff;
+}
+.container-fluid{
+    padding-top: 0;
+    padding-left: 3% !important;
+    padding-right: 7% !important;
+    padding-bottom: 15%;    
+}
+.navbar{
+    padding-top: 1.5% !important;
+}
+.navbar-brand{
+    font-family:'Poppins', sans-serif;
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+.nav-item{
+    padding: 0 8px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif;
+    color: #fff !important;
+}
+#gradient{
+    width: 4%;
+    background: linear-gradient(0deg,#21E1E1, #3B9AE1) !important;
+    height: 6px !important;
+}
+.title-elements{
+    padding-left: 3%;
+}
+.title-elements h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(0deg,#21E1E1, #3B9AE1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2,h3{
+    font-family: 'Bebas Neue', cursive;
+}
+.title-elements h2{
+    font-size: 3rem;
+}
+.title-elements h3{
+    font-size: 1.7rem;
+    margin-top: 2%;
+}
+
+/* row secton */
+.thisrow{
+    background-color: #080808;
+    width: 89%;
+    position: absolute;
+    height: auto;
+    top: 80%;
+    left: 6%;
+}
+.row hr{
+    width: 10% !important;
+}
+.col1,.col2,.col3{
+    border-right: 1px solid grey;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+.col3{
+    border: none !important;
+}
+.iconz{
+    font-size: 5rem;
+    background: -moz-linear-gradient(top, #21E1E1 0%, #3B9AE1 100%);
+    background: -webkit-linear-gradient(top, #21E1E1 0%, #3B9AE1 100%);
+    background: linear-gradient(to bottom, #21E1E1 0%, #3B9AE1 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.col1,.col2,.col3 p{
+    font-size: 1.1rem;
+    color: #fff;
+}
+.experts{
+    margin-top: 6%;
+    color: #fff;
+}
+
+
+/* RENOWNED */
+
+#renowned{
+    background-image: url('section2.jpg');
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+#renowned .row{
+    background: none;
+}
+#renowned .container-fluid{
+    padding-top: 25%;
+    padding-left: 6% !important;
+    padding-bottom: 8%;
+}
+.r11{
+    padding-top: 10% !important;
+    padding-bottom: 4% !important;
+}
+.r11 span{
+    font-size: 4.7rem;
+    line-height: 1;
+}
+span b{
+    font-size: 5.5rem;
+    font-weight: 500;
+    background: -webkit-linear-gradient(0deg,#21E1E1, #3B9AE1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#super{
+    vertical-align: super;
+    background: -webkit-linear-gradient(0deg,#21E1E1, #3B9AE1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: normal !important;
+    font-size: 5rem;
+}
+.row h3{
+    font-family: 'poppins', sans-serif;
+}
+.row h1{
+    font-size: 7rem;
+}
+.third{
+    padding-top: 1.6%;
+}
+
+
+
+/* services */
+#services{
+    background: -webkit-linear-gradient(0deg,#000000, #080808);
+}
+.ct2{
+    padding-bottom: 5% !important;
+}
+.this2row{
+    text-align: center;
+    padding-top: 5%;
+}
+.g2{
+    margin: auto;
+    width: 25% !important;
+}
+.e2{
+    font-family: 'Teko', sans-serif;
+}
+
+.SEO{
+ text-align: left;
+ padding-left: 25%;
+ margin-top: 3%;
+ font-size: 1.3rem;
+ color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+.ulist li::before{
+    background-color: #21E1E1 !important;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 10px;
+  width: 10px;
+}
+.serv{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 8rem !important;
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+}
+.se1{
+    background: -webkit-linear-gradient(0deg,#21E1E1, #3B9AE1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* project */
+#projects{
+    background-color: #080808;
+}
+
+.ct3{
+    padding-top: 10%;
+    padding-left: 10% !important;
+    padding-bottom: 8% !important;
+}
+#projects h1{
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 5%;
+}
+#image{
+    height: 95%;
+    width: 90%;
+    border-radius: 5%;
+}
+#image:hover{
+
+}
+.pic2{
+    height: 95% !important;
+}
+.pic5{
+    width: 60%;
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+    background-color: #000000;
+}
+.fh1{
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 5%;
+}
+.t1{
+    width: 10%;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* .img1{
+    width: 30%;
+    height: 30%;
+    border-radius: 328px;
+}   
+.img2{
+    width: 10%;
+    height: 40%;
+    border-radius: 120%;
+} */
+.ct4{
+    padding-top: 10%;
+    padding-bottom: 10% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.img3{
+    width: 25%;
+    height: auto;
+    border-radius: 100%; 
+    border: 2px solid #080808;
+}
+.t12{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.box{
+    background-color: #21E1E1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+
+}
+
+.name{
+    font-size: 1.2rem;
+}
+.imgcol1{
+    text-align: right !important;
+    justify-content: right !important;
+}
+.imgcol3{
+    text-align: left !important;
+    justify-content: left !important;
+}
+.comma{
+    font-size: 13rem;
+    margin-bottom: none !important;
+    padding-bottom: none !important;
+}
+.comm2{
+    align-items: right;
+    text-align: right;
+}
+.para2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.name1{
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1028px){
+    .thisrow{
+        position:static !important;
+        width:102.5%;
+    }
+    
+}
